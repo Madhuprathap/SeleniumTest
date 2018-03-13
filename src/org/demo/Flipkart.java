@@ -16,5 +16,6 @@ package org.demo;
 			//driver.findElement(By.cssSelector("._2AkmmA _29YdH8")).click();
 			driver.findElement(By.linkText("Electronics")).click();
 			driver.findElement(By.partialLinkText("Cam")).click();
+			driver.close();
 		}
 }
